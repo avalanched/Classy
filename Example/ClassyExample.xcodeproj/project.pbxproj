@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82CBBE2018413CD800F4CC15 /* CASCatalogButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBBE1F18413CD800F4CC15 /* CASCatalogButtonsViewController.m */; };
+		82CBBE231841475000F4CC15 /* red-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBE211841475000F4CC15 /* red-button.png */; };
+		82CBBE241841475000F4CC15 /* red-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBE221841475000F4CC15 /* red-button@2x.png */; };
+		82CBBE271841481A00F4CC15 /* red-button-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBE251841481A00F4CC15 /* red-button-selected.png */; };
+		82CBBE281841481A00F4CC15 /* red-button-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CBBE261841481A00F4CC15 /* red-button-selected@2x.png */; };
 		BA23251D9EB84FA09338B05C /* libPods-ClassyExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9C8ED2DF59B45B2A38549AB /* libPods-ClassyExample.a */; };
 		D8EFA314183EB29000BA69F7 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EFA313183EB29000BA69F7 /* Ball.png */; };
 		DD355BDB183E9CD30071E543 /* variables.cas in Resources */ = {isa = PBXBuildFile; fileRef = DD355BDA183E9CD30071E543 /* variables.cas */; };
@@ -25,6 +30,12 @@
 
 /* Begin PBXFileReference section */
 		136384E66419452BA007511C /* Pods-ClassyExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClassyExample.xcconfig"; path = "../Pods/Pods-ClassyExample.xcconfig"; sourceTree = "<group>"; };
+		82CBBE1E18413CD800F4CC15 /* CASCatalogButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASCatalogButtonsViewController.h; sourceTree = "<group>"; };
+		82CBBE1F18413CD800F4CC15 /* CASCatalogButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASCatalogButtonsViewController.m; sourceTree = "<group>"; };
+		82CBBE211841475000F4CC15 /* red-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-button.png"; sourceTree = "<group>"; };
+		82CBBE221841475000F4CC15 /* red-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-button@2x.png"; sourceTree = "<group>"; };
+		82CBBE251841481A00F4CC15 /* red-button-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-button-selected.png"; sourceTree = "<group>"; };
+		82CBBE261841481A00F4CC15 /* red-button-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-button-selected@2x.png"; sourceTree = "<group>"; };
 		D8EFA313183EB29000BA69F7 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
 		DD355BDA183E9CD30071E543 /* variables.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = variables.cas; sourceTree = "<group>"; };
 		DD61F4431816370F004A8777 /* stylesheet.cas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stylesheet.cas; sourceTree = "<group>"; };
@@ -106,6 +117,10 @@
 		DDAB25701814BBBB00F3DAAE /* ClassyExample */ = {
 			isa = PBXGroup;
 			children = (
+				82CBBE251841481A00F4CC15 /* red-button-selected.png */,
+				82CBBE261841481A00F4CC15 /* red-button-selected@2x.png */,
+				82CBBE211841475000F4CC15 /* red-button.png */,
+				82CBBE221841475000F4CC15 /* red-button@2x.png */,
 				D8EFA313183EB29000BA69F7 /* Ball.png */,
 				DDAB25791814BBBB00F3DAAE /* CASAppDelegate.h */,
 				DDAB257A1814BBBB00F3DAAE /* CASAppDelegate.m */,
@@ -115,6 +130,8 @@
 				DDFE54A71814EF07003BF9C6 /* CASSimpleFormViewController.m */,
 				DDFE54A91814EF41003BF9C6 /* CASCatalogViewController.h */,
 				DDFE54AA1814EF41003BF9C6 /* CASCatalogViewController.m */,
+				82CBBE1E18413CD800F4CC15 /* CASCatalogButtonsViewController.h */,
+				82CBBE1F18413CD800F4CC15 /* CASCatalogButtonsViewController.m */,
 				DDAB257C1814BBBB00F3DAAE /* Images.xcassets */,
 				DD61F4421816370F004A8777 /* Stylesheets */,
 				DDAB25711814BBBB00F3DAAE /* Supporting Files */,
@@ -188,7 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8EFA314183EB29000BA69F7 /* Ball.png in Resources */,
+				82CBBE241841475000F4CC15 /* red-button@2x.png in Resources */,
+				82CBBE231841475000F4CC15 /* red-button.png in Resources */,
 				DDAB25751814BBBB00F3DAAE /* InfoPlist.strings in Resources */,
+				82CBBE271841481A00F4CC15 /* red-button-selected.png in Resources */,
+				82CBBE281841481A00F4CC15 /* red-button-selected@2x.png in Resources */,
 				DDAB257D1814BBBB00F3DAAE /* Images.xcassets in Resources */,
 				DD61F4441816370F004A8777 /* stylesheet.cas in Resources */,
 				DD355BDB183E9CD30071E543 /* variables.cas in Resources */,
@@ -235,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CBBE2018413CD800F4CC15 /* CASCatalogButtonsViewController.m in Sources */,
 				DDFE54AB1814EF41003BF9C6 /* CASCatalogViewController.m in Sources */,
 				DDFE54A81814EF07003BF9C6 /* CASSimpleFormViewController.m in Sources */,
 				DDAB257B1814BBBB00F3DAAE /* CASAppDelegate.m in Sources */,

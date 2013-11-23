@@ -23,3 +23,66 @@ UIButton.bundle {
     background-color: green
     background-image: 'bundle://Ball'
 }
+
+^UIButton {
+    background-color: #FF3A2D;
+    title-color: white;
+}
+
+UIButton.button-1 {
+    background-color: rgb(0,255,0);
+    title-color: hsl(360,60%,100%);
+}
+
+UIButton.button-2 {
+    layer @{
+        border-width: 2;
+        corner-radius: 5;
+        border-color: blue;
+    }
+}
+
+UIButton.button-3  {
+    title-shadow-color[state:normal] blue;
+    title-shadow-color[state:highlighted] green;
+    > ^UILabel {
+        font: AmericanTypewriter 21;
+        shadow-offset: 0,1
+    }
+}
+
+UIButton.button-4 {
+    layer @{
+        masksToBounds: NO
+        corner-radius: 5;
+        shadow-offset: 0,5;
+        shadow-color: black;
+        shadow-radius: 5;
+        shadow-opacity: 0.5;
+    }
+}
+
+$button-image-insets = 0, 4, 0, 4
+
+UIButton.button-5 {
+    background-color: clear;
+    background-image[state:normal]: red-button $button-image-insets;
+    background-image[state:highlighted]: red-button-selected $button-image-insets;
+}
+
+UIButton.button-6 {
+    background-color white;
+    title-color: purple;
+    title-color[state:highlighted]: rgba(0,0,0,0.2);
+    layer @{
+        border-width: 1;
+        corner-radius: 5;
+        border-color: purple;
+    }
+}
+
+CASCustomButton.button-7 {
+    background-color: blue;
+    top-border-color: red;
+}
+

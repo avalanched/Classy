@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CASCatalogViewController : UIViewController
+@interface CASCatalogViewController : UITableViewController
 
 @end
