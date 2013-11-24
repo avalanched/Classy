@@ -81,6 +81,14 @@ UIButton.button-6 {
     }
 }
 
+^UIButton.button-7 {
+    title-color: red;
+    layer @{
+        border-width: 1;
+        border-color: red;
+    }
+}
+
 CASCustomButton.button-7 {
     background-color: blue;
     top-border-color: red;
